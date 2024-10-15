@@ -37,9 +37,9 @@
 ![1-2](./04/demonstration1/vms/2.png)
 Лейблы ```owner``` и ```project```  
 ![1-3](./04/demonstration1/vms/3.png)
-![1-4](./04/demonstration1/vms/4.png)
+![1-4](./04/demonstration1/vms/4.png)  
 Вывод модуля ```marketing-vm```  
-![1-5](./04/demonstration1/vms/5.png)
+![1-5](./04/demonstration1/vms/5.png)  
 Подключение к созданным ВМ по ssh и выполнение ```sudo nginx -t```  
 ![1-6](./04/demonstration1/vms/6.png)
 ![1-7](./04/demonstration1/vms/7.png)
