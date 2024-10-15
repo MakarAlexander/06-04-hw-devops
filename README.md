@@ -32,7 +32,7 @@
 
 #### Решение
 
-Созданные ВМ
+Созданные ВМ  
 ![1-1](./04/demonstration1/vms/1.png)
 ![1-2](./04/demonstration1/vms/2.png)
 Лейблы ```owner``` и ```project```
