@@ -30,6 +30,21 @@
 В случае использования MacOS вы получите ошибку "Incompatible provider version" . В этом случае скачайте remote модуль локально и поправьте в нем версию template провайдера на более старую.
 ------
 
+#### Решение
+
+Созданные ВМ
+![1-1](./04/demonstration1/vms/1.png)
+![1-2](./04/demonstration1/vms/2.png)
+Лейблы ```owner``` и ```project```
+![1-3](./04/demonstration1/vms/3.png)
+![1-4](./04/demonstration1/vms/4.png)
+Вывод модуля ```marketing-vm```
+![1-5](./04/demonstration1/vms/5.png)
+Подключение к созданным ВМ по ssh и выполнение ```sudo nginx -t```
+![1-6](./04/demonstration1/vms/6.png)
+![1-7](./04/demonstration1/vms/7.png)
+
+
 ### Задание 2
 
 1. Напишите локальный модуль vpc, который будет создавать 2 ресурса: **одну** сеть и **одну** подсеть в зоне, объявленной при вызове модуля, например: ```ru-central1-a```.
