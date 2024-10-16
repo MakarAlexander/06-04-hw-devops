@@ -8,6 +8,4 @@ users:
       - ${ssh_public_key}
 package_update: true
 package_upgrade: false
-packages:
- - vim
- - nginx
+packages: ${packages}

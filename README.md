@@ -33,16 +33,16 @@
 #### Решение
 
 Созданные ВМ  
-![1-1](./04/demonstration1/vms/1.png)
-![1-2](./04/demonstration1/vms/2.png)
+![1-1](./terraform/1.png)
+![1-2](./terraform/2.png)
 Лейблы ```owner``` и ```project```  
-![1-3](./04/demonstration1/vms/3.png)
-![1-4](./04/demonstration1/vms/4.png)  
+![1-3](./terraform/3.png)
+![1-4](./terraform/4.png)  
 Вывод модуля ```marketing-vm```  
-![1-5](./04/demonstration1/vms/5.png)  
+![1-5](./terraform/5.png)  
 Подключение к созданным ВМ по ssh и выполнение ```sudo nginx -t```  
-![1-6](./04/demonstration1/vms/6.png)
-![1-7](./04/demonstration1/vms/7.png)
+![1-6](./terraform/6.png)
+![1-7](./terraform/7.png)
 
 
 ### Задание 2
@@ -66,7 +66,7 @@ module "vpc_dev" {
 
 #### Решение
 В output модуля выводится вся информация, а в root модуле берутся только нужные значения  
-![2-1](./04/demonstration1/vms/8.png)
+![2-1](./terraform/8.png)
 
 На текущий момент модуль создаёт 1 сеть и 1 подсеть  
 Описание модуля через ```terraform-docs```
@@ -122,17 +122,17 @@ No modules.
 
 #### Решение
 Список модулей  
-![3-1](./04/demonstration1/vms/10.png)  
+![3-1](./terraform/10.png)  
 Удаление модулей  
-![3-2](./04/demonstration1/vms/11.png)  
-![3-3](./04/demonstration1/vms/12.png)  
+![3-2](./terraform/11.png)  
+![3-3](./terraform/12.png)  
 Импорт модулей. Идентификаторы ресурсов взяты у провайдера. Для импорта виртуальной машины нужно импортировать только виртуальную машину, диск подтянулся сам  
-![3-4](./04/demonstration1/vms/13.png)  
-![4-4](./04/demonstration1/vms/14.png)  
-![4-5](./04/demonstration1/vms/15.png)  
+![3-4](./terraform/13.png)  
+![4-4](./terraform/14.png)  
+![4-5](./terraform/15.png)  
 ```terraform plan``` и ```apply```, значимых изменений нет  
-![4-6](./04/demonstration1/vms/16.png)  
-![4-7](./04/demonstration1/vms/17.png)
+![4-6](./terraform/16.png)  
+![4-7](./terraform/17.png)
 
 ## Дополнительные задания (со звёздочкой*)
 
